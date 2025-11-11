@@ -1,0 +1,45 @@
+# Arduino build artifacts
+*.hex
+*.elf
+*.eep
+*.bin
+*.o
+*.a
+*.map
+
+# IDE files
+.vscode/
+.idea/
+*.suo
+*.user
+*.sln.docstates
+
+# OS generated files
+.DS_Store
+.DS_Store?
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Temporary files
+*~
+*.swp
+*.swo
+*.tmp
+
+# Build directories
+build/
+dist/
+
+# Library dependencies (if using platformio)
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# Python bytecode (if using any Python tools)
+__pycache__/
+*.py[cod]
+
+# Backup files
+*.bak
+*.backup
